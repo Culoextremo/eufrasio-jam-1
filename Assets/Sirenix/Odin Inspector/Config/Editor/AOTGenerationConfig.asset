@@ -1,0 +1,498 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 1
+  deleteDllAfterBuilds: 1
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 09000000140000000d000000
+  lastScan: 637632393638858154
+  supportSerializedTypes:
+  - TypeName: com.KoronStudios.KrakenFramework.ArithmeticSummatoryEquation, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Persistence.Base64EncryptionProvider,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Boolean, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Bridge.BridgeModule, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Bridge.BridgeUnlockedCondition,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Buildings.BuildingLevelCondition,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Buildings.BuildingModel, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.BuildingStyle, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Color, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.CountdownTimer, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Economy.CurrencyController, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Economy.CurrencyPrice, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Economy.CurrencyReward, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.DailyTimer, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Deals.Deal, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Deals.DealPurchasedCondition, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Deals.DealsModule, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[com.KoronStudios.KrakenFramework.Economy.CurrencyController,
+      Assembly-CSharp],[com.KoronStudios.KrakenFramework.IEquation, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.Single,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[com.KoronStudios.IdleDeliveryRestaurant.Generators.MergeableGeneratorGroup,
+      Assembly-CSharp],[com.KoronStudios.IdleDeliveryRestaurant.MergeableGeneratorStyle,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[com.KoronStudios.IdleDeliveryRestaurant.BuildingStyle,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[com.KoronStudios.IdleDeliveryRestaurant.RestaurantStyle,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[System.Type, mscorlib],[com.KoronStudios.IdleDeliveryRestaurant.IActionViewModel,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Double, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Double[], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.EvenOddExponentialEquation,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.ExponentialEquation, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.ExponentialIntFloatDictionaryEquation,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Analytics.FacebookAnalyticsProvider,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Remote.FirebaseRemoteConfigProvider,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Single, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Managers.GeneratorManagerModel,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Managers.GeneratorManagersModule,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.UI.Graphic, UnityEngine.UI
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.GraphicTintFeedback, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IAction, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IAction[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.IActionViewModel, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Ads.IAdsProvider, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Analytics.IAnalyticsProvider, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.IBuildingStatPanel, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.IBuildingStatPanel[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IButtonFeedback, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IButtonFeedback[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.ICondition, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.ICondition[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IDownloader, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IDownloader[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Persistence.IEncryptionProvider, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[com.KoronStudios.KrakenFramework.Economy.CurrencyController,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[System.Int32, mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[com.KoronStudios.IdleDeliveryRestaurant.Generators.MergeableGeneratorGroup,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[System.String, mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[System.Type, mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IEquation, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.InAppPurchases.IInAppPurchasesProvider,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Ads.IronSrc.IIronSourceNetwork[],
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.IMergeableGeneratorItemDisplay,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.IMergeableGeneratorItemDisplay[],
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.ImproveGeneratorItemsChargeTimeAction,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.ImproveGeneratorItemsMovementTimeAction,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.ImproveGeneratorItemsPowerAction,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.ImproveGeneratorsIncomeAction,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.InAppPurchases.InAppPurchasePrice,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.InAppPurchases.InAppPurchasesModule,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.INotificationsProvider, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Persistence.IPersistenceProvider,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IPrice, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: IRemoteConfigProvider, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IReward, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IReward[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IServiceConnection, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IServiceConnection[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IUpgrader, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.IUpgrader[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.KeyValuePair`2[[System.Int32, mscorlib],[com.KoronStudios.KrakenFramework.IEquation,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.LinearEquation, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.ListEquation, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Managers.ContentPacks.ManagerContentPack,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Managers.ContentPacks.ManagerContentPackReward,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Managers.ManagerTokenPackModel,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Managers.ManagerTokensReward,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Managers.ManagerTokensRewardAmount,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Managers.ManagerTokensRewardAmount[],
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.MergeableGeneratorActionViewModel,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.MergeableGeneratorGroup,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.MergeableGeneratorItemsGift,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.MergeableGeneratorModel,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.MergeableGeneratorModel[],
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.MergeableGeneratorsModule,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.MergeableGeneratorStyle, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.MultiManagement.MultiManagementLocation,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.MultiManagement.MultiManagementLocation[],
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.MultipleActions, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.MultipleConditions, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.MultipleEquation, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.MultipleRewards, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Object, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[com.KoronStudios.KrakenFramework.Economy.CurrencyController,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[com.KoronStudios.IdleDeliveryRestaurant.Generators.MergeableGeneratorGroup,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[System.Type, mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.OfflineTimeMultiplyAction,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.InAppPurchases.PurchaseCondition,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Purchasing.PurchaseFailureReason, UnityEngine.Purchasing
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.RandomMergeableGeneratorsChances,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.RandomMergeableGeneratorsChances[],
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.RandomMergeableGeneratorsGiftChances,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.RandomMergeableGeneratorsGiftChances[],
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.ReachGeneratorItemLevelsCondition,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.ReachGeneratorItemPurchaseLevelCondition,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.ReduceGeneratorItemsCostAction,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.RestaurantStyle, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Scene, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.SimpleValueEquation, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.SortedList`2[[System.Int32, mscorlib],[com.KoronStudios.KrakenFramework.IEquation,
+      Assembly-CSharp]], System
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.SpecialImprovements.SpecialImprovementLevelReward,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.SpecialImprovements.SpecialImprovementModel,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.SpecialImprovements.SpecialImprovementsModule,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String[], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.TemporaryBoost.TemporaryBoostModule,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.TemporaryBoost.TemporaryBoostReward,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.TimeJumpReward,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.Timer, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Managers.TokenPackReward, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.TutorialCompletedCondition, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.TutorialModule, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Type, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.KrakenFramework.InAppPurchases.UnityInAppPurchasesProvider,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.UnityNotificationsProvider,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.UnlockGeneratorReward,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: com.KoronStudios.IdleDeliveryRestaurant.Generators.UpgradeBaseLevelReward,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
